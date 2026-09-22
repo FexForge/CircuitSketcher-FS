@@ -1,6 +1,6 @@
 # Recherche: Layout-Regeln für automatisch erzeugte Schaltpläne
 
-**Zweck:** Datenlage für den geplanten Auto-Layouter (Kern des MCP-Projekts).
+**Zweck:** Datenlage für einen möglichen künftigen Auto-Layouter.
 Gezogen aus vier Quellen-Welten: Normen, Praxis-Konventionen,
 Layout-Algorithmik (EDA/Graphdrawing) und LLM-basierte Ansätze.
 Stand: September 2026.
@@ -205,7 +205,7 @@ Abgeleitet aus allen Quellen, gemappt auf unsere Code-Basis
 2. **Zeichnerische Präferenzen** (Slot-Breite, Rails-Ausrichtung, Label-Abstände,
    Batterie-Positionierung): Konfiguration (`layout_rules.json`)
 3. **Symbol-Optik**: bleibt in `symbols/*.symbol.json` (Status quo)
-4. **LLM (später, MCP)**: liefert nur Topologie/Netzliste + Werte; optional
+4. **LLM (später)**: liefert nur Topologie/Netzliste + Werte; optional
    Render-Feedback-Schleife nach EEschematic-Vorbild als Qualitäts-Check
 
 ## 6. Quellen
