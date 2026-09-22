@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "type": "symbol",
+      "symbol_id": "lamp",
+      "x": 840.0,
+      "y": 200.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "L",
+        "voltage": "12 V"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "resistor",
+      "x": 640.0,
+      "y": 200.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "R",
+        "resistance": "1 kOhm"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "switch",
+      "x": 440.0,
+      "y": 200.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "S"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "battery",
+      "x": 200.0,
+      "y": 320.0,
+      "orientation": "vertical",
+      "rotation_step": 1,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "B",
+        "voltage": "5 V"
+      },
+      "placeholder_offsets": {}
+    }
+  ],
+  "wires": [
+    {
+      "type": "wire",
+      "start_x": 200.0,
+      "start_y": 400.0,
+      "end_x": 200.0,
+      "end_y": 360.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 1020.0,
+      "start_y": 400.0,
+      "end_x": 200.0,
+      "end_y": 400.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 1020.0,
+      "start_y": 200.0,
+      "end_x": 1020.0,
+      "end_y": 400.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 920.0,
+      "start_y": 200.0,
+      "end_x": 1020.0,
+      "end_y": 200.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 720.0,
+      "start_y": 200.0,
+      "end_x": 840.0,
+      "end_y": 200.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 520.0,
+      "start_y": 200.0,
+      "end_x": 640.0,
+      "end_y": 200.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 200.0,
+      "start_y": 200.0,
+      "end_x": 440.0,
+      "end_y": 200.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 200.0,
+      "start_y": 280.0,
+      "end_x": 200.0,
+      "end_y": 200.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "type": "voltage",
+      "x": 40.0,
+      "y": 0.0,
+      "value": "12 V",
+      "component": 1
+    }
+  ],
+  "sheet": {
+    "visible": false,
+    "title": "",
+    "subject": "",
+    "name": "",
+    "date": ""
+  }
+}

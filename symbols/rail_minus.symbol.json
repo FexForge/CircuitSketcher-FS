@@ -1,0 +1,143 @@
+{
+  "version": "1.0",
+  "id": "rail_minus",
+  "name": "Schiene N",
+  "category": "Funktionsschema",
+  "default_values": {
+    "name": "N"
+  },
+  "orientations": {
+    "horizontal": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            -200.0,
+            0.0
+          ],
+          "end": [
+            200.0,
+            0.0
+          ]
+        },
+        {
+          "type": "circle",
+          "center": [
+            -200.0,
+            0.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            200.0,
+            0.0
+          ],
+          "radius": 4.0
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "name",
+          "position": [
+            0.0,
+            -18.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          -200,
+          0
+        ],
+        [
+          200,
+          0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -204,
+          -24
+        ],
+        "max": [
+          204,
+          10
+        ]
+      },
+      "origin": [
+        -200,
+        0
+      ]
+    },
+    "vertical": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            -200.0
+          ],
+          "end": [
+            0.0,
+            200.0
+          ]
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            -200.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            200.0
+          ],
+          "radius": 4.0
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "name",
+          "position": [
+            24.0,
+            0.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          0,
+          -200
+        ],
+        [
+          0,
+          200
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -24,
+          -204
+        ],
+        "max": [
+          30,
+          204
+        ]
+      },
+      "origin": [
+        0,
+        -200
+      ]
+    }
+  }
+}

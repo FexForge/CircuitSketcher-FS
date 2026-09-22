@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "id": "Strom",
+  "name": "Strom",
+  "category": "Messgeräte",
+  "hidden": true,
+  "default_values": {},
+  "orientations": {
+    "horizontal": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            -6.0
+          ],
+          "end": [
+            0.0,
+            6.0
+          ],
+          "color": [
+            220,
+            53,
+            69
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            6.0
+          ],
+          "end": [
+            20.0,
+            0.0
+          ],
+          "color": [
+            220,
+            53,
+            69
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            20.0,
+            0.0
+          ],
+          "end": [
+            0.0,
+            -6.0
+          ],
+          "color": [
+            220,
+            53,
+            69
+          ]
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "current",
+          "position": [
+            8.0,
+            -20.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          0.0,
+          -6.0
+        ],
+        [
+          20.0,
+          0.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          0.0,
+          -20.0
+        ],
+        "max": [
+          20.0,
+          6.0
+        ]
+      },
+      "origin": [
+        0.0,
+        0.0
+      ]
+    },
+    "vertical": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            18.0
+          ],
+          "end": [
+            -6.0,
+            0.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            6.0,
+            0.0
+          ],
+          "end": [
+            0.0,
+            18.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            -6.0,
+            0.0
+          ],
+          "end": [
+            6.0,
+            0.0
+          ]
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "current",
+          "position": [
+            32.0,
+            -4.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          0.0,
+          18.0
+        ],
+        [
+          -6.0,
+          0.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -6.0,
+          -4.0
+        ],
+        "max": [
+          32.0,
+          18.0
+        ]
+      },
+      "origin": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

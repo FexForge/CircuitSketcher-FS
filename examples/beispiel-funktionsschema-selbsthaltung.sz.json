@@ -1,0 +1,237 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "type": "symbol",
+      "symbol_id": "lamp",
+      "x": 660.0,
+      "y": 440.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "L",
+        "voltage": "12 V"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "relay_contact_no",
+      "x": 660.0,
+      "y": 360.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "K1"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "relay_coil",
+      "x": 540.0,
+      "y": 220.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "K1"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "pushbutton_normally_closed",
+      "x": 360.0,
+      "y": 220.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "T"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "relay_contact_no",
+      "x": 200.0,
+      "y": 360.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "K1"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "pushbutton_normally_open",
+      "x": 200.0,
+      "y": 220.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "T"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "rail_minus",
+      "x": 100.0,
+      "y": 700.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "N",
+        "length": "800"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "rail_plus",
+      "x": 100.0,
+      "y": 100.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "L",
+        "length": "800"
+      },
+      "placeholder_offsets": {}
+    }
+  ],
+  "wires": [
+    {
+      "type": "wire",
+      "start_x": 660.0,
+      "start_y": 440.0,
+      "end_x": 660.0,
+      "end_y": 700.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 740.0,
+      "start_y": 360.0,
+      "end_x": 740.0,
+      "end_y": 440.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 660.0,
+      "start_y": 100.0,
+      "end_x": 660.0,
+      "end_y": 360.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 620.0,
+      "start_y": 220.0,
+      "end_x": 620.0,
+      "end_y": 700.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 440.0,
+      "start_y": 220.0,
+      "end_x": 540.0,
+      "end_y": 220.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 280.0,
+      "start_y": 220.0,
+      "end_x": 360.0,
+      "end_y": 220.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 280.0,
+      "start_y": 220.0,
+      "end_x": 280.0,
+      "end_y": 360.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 200.0,
+      "start_y": 220.0,
+      "end_x": 200.0,
+      "end_y": 360.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 200.0,
+      "start_y": 100.0,
+      "end_x": 200.0,
+      "end_y": 220.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "type": "contact_mirror",
+      "x": 960.0,
+      "y": 220.0,
+      "value": "K1"
+    }
+  ],
+  "sheet": {
+    "visible": true,
+    "title": "Selbsthaltung: EIN / AUS mit Relais K1",
+    "subject": "Funktionsschema: Taster, Selbsthaltekontakt, Lampe",
+    "name": "",
+    "date": ""
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "version": "1.0",
+  "id": "voltmeter",
+  "name": "Voltmeter",
+  "category": "Messgeräte",
+  "default_values": {
+    "name": "V",
+    "voltage": "0 V"
+  },
+  "orientations": {
+    "horizontal": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            -40.0,
+            0.0
+          ],
+          "end": [
+            -20.0,
+            0.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            20.0,
+            0.0
+          ],
+          "end": [
+            40.0,
+            0.0
+          ]
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 20.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            -40.0,
+            0.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            40.0,
+            0.0
+          ],
+          "radius": 4.0
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "voltage",
+          "position": [
+            0.0,
+            0.0
+          ],
+          "alignment": "center"
+        },
+        {
+          "type": "placeholder",
+          "key": "name",
+          "position": [
+            0.0,
+            -36.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          -40.0,
+          0.0
+        ],
+        [
+          40.0,
+          0.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -44.0,
+          -36.0
+        ],
+        "max": [
+          44.0,
+          20.0
+        ]
+      },
+      "origin": [
+        -40.0,
+        0.0
+      ]
+    },
+    "vertical": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            -40.0
+          ],
+          "end": [
+            0.0,
+            -20.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            20.0
+          ],
+          "end": [
+            0.0,
+            40.0
+          ]
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 20.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            -40.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            40.0
+          ],
+          "radius": 4.0
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "name",
+          "position": [
+            52.0,
+            -16.0
+          ],
+          "alignment": "center"
+        },
+        {
+          "type": "placeholder",
+          "key": "voltage",
+          "position": [
+            0.0,
+            0.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          40.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -20.0,
+          -44.0
+        ],
+        "max": [
+          52.0,
+          44.0
+        ]
+      },
+      "origin": [
+        0.0,
+        -40.0
+      ]
+    }
+  }
+}

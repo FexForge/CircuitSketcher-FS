@@ -1,0 +1,182 @@
+{
+  "version": "1.0",
+  "id": "motor",
+  "name": "Motor",
+  "category": "Verbraucher",
+  "default_values": {
+    "name": "M",
+    "direction": "rechts"
+  },
+  "orientations": {
+    "horizontal": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            -40.0,
+            0.0
+          ],
+          "end": [
+            -18.0,
+            0.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            18.0,
+            0.0
+          ],
+          "end": [
+            40.0,
+            0.0
+          ]
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 18.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            -40.0,
+            0.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            40.0,
+            0.0
+          ],
+          "radius": 4.0
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "name",
+          "position": [
+            0.0,
+            0.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          -40,
+          0
+        ],
+        [
+          40,
+          0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -44,
+          -22
+        ],
+        "max": [
+          44,
+          22
+        ]
+      },
+      "origin": [
+        -40,
+        0
+      ]
+    },
+    "vertical": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            -40.0
+          ],
+          "end": [
+            0.0,
+            -18.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            18.0
+          ],
+          "end": [
+            0.0,
+            40.0
+          ]
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            0.0
+          ],
+          "radius": 18.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            -40.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            40.0
+          ],
+          "radius": 4.0
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "name",
+          "position": [
+            48.0,
+            0.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          0,
+          -40
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -22,
+          -44
+        ],
+        "max": [
+          52,
+          44
+        ]
+      },
+      "origin": [
+        0,
+        -40
+      ]
+    }
+  }
+}

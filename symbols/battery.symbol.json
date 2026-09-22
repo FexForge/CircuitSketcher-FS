@@ -1,0 +1,272 @@
+{
+  "version": "1.0",
+  "id": "battery",
+  "name": "Batterie",
+  "category": "Energiequellen",
+  "default_values": {
+    "name": "B",
+    "voltage": "5 V"
+  },
+  "orientations": {
+    "horizontal": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            -40.0,
+            0.0
+          ],
+          "end": [
+            -16.0,
+            0.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            16.0,
+            0.0
+          ],
+          "end": [
+            40.0,
+            0.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            -8.0,
+            -20.0
+          ],
+          "end": [
+            -8.0,
+            20.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            -4.0,
+            -20.0
+          ],
+          "end": [
+            -4.0,
+            20.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            8.0,
+            -12.0
+          ],
+          "end": [
+            8.0,
+            12.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            4.0,
+            -12.0
+          ],
+          "end": [
+            4.0,
+            12.0
+          ]
+        },
+        {
+          "type": "circle",
+          "center": [
+            -40.0,
+            0.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            40.0,
+            0.0
+          ],
+          "radius": 4.0
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "name",
+          "position": [
+            -2.0,
+            -30.0
+          ],
+          "alignment": "center"
+        },
+        {
+          "type": "placeholder",
+          "key": "voltage",
+          "position": [
+            0.0,
+            28.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          -40.0,
+          0.0
+        ],
+        [
+          40.0,
+          0.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -44.0,
+          -30.0
+        ],
+        "max": [
+          44.0,
+          28.0
+        ]
+      },
+      "origin": [
+        -40.0,
+        0.0
+      ]
+    },
+    "vertical": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            -40.0
+          ],
+          "end": [
+            0.0,
+            -16.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            16.0
+          ],
+          "end": [
+            0.0,
+            40.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            -20.0,
+            -8.0
+          ],
+          "end": [
+            20.0,
+            -8.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            -20.0,
+            -4.0
+          ],
+          "end": [
+            20.0,
+            -4.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            -12.0,
+            8.0
+          ],
+          "end": [
+            12.0,
+            8.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            -12.0,
+            4.0
+          ],
+          "end": [
+            12.0,
+            4.0
+          ]
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            -40.0
+          ],
+          "radius": 4.0
+        },
+        {
+          "type": "circle",
+          "center": [
+            0.0,
+            40.0
+          ],
+          "radius": 4.0
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "name",
+          "position": [
+            48.0,
+            -16.0
+          ],
+          "alignment": "center"
+        },
+        {
+          "type": "placeholder",
+          "key": "voltage",
+          "position": [
+            58.0,
+            4.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          0.0,
+          -40.0
+        ],
+        [
+          0.0,
+          40.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -20.0,
+          -44.0
+        ],
+        "max": [
+          58.0,
+          44.0
+        ]
+      },
+      "origin": [
+        0.0,
+        -40.0
+      ]
+    }
+  }
+}

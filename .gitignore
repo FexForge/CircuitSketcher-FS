@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build-Ausgaben (nur Quellcode im Repo)
+build/
+dist/
+release/
+
+# Lokale Agent-/Editor-Zustände
+.zcode/
+.claude/
+.vscode/
+
+# Absturzsicherung / Anwenderdaten
+*.autosave.sz.json
+
+# Betriebssystem
+Thumbs.db
+desktop.ini
+.DS_Store

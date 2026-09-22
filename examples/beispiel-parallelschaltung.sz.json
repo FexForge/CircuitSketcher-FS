@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "components": [
+    {
+      "type": "symbol",
+      "symbol_id": "ammeter",
+      "x": 480.0,
+      "y": 620.0,
+      "orientation": "horizontal",
+      "rotation_step": 0,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "A",
+        "current": "0 A"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "resistor",
+      "x": 660.0,
+      "y": 260.0,
+      "orientation": "vertical",
+      "rotation_step": 1,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "R",
+        "resistance": "1 kOhm"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "resistor",
+      "x": 480.0,
+      "y": 260.0,
+      "orientation": "vertical",
+      "rotation_step": 1,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "R",
+        "resistance": "1 kOhm"
+      },
+      "placeholder_offsets": {}
+    },
+    {
+      "type": "symbol",
+      "symbol_id": "battery",
+      "x": 180.0,
+      "y": 500.0,
+      "orientation": "vertical",
+      "rotation_step": 1,
+      "scale_factor": 1.0,
+      "placeholder_values": {
+        "name": "B",
+        "voltage": "5 V"
+      },
+      "placeholder_offsets": {}
+    }
+  ],
+  "wires": [
+    {
+      "type": "wire",
+      "start_x": 560.0,
+      "start_y": 620.0,
+      "end_x": 860.0,
+      "end_y": 620.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 180.0,
+      "start_y": 620.0,
+      "end_x": 400.0,
+      "end_y": 620.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 180.0,
+      "start_y": 540.0,
+      "end_x": 180.0,
+      "end_y": 620.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 560.0,
+      "start_y": 620.0,
+      "end_x": 560.0,
+      "end_y": 620.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 400.0,
+      "start_y": 620.0,
+      "end_x": 480.0,
+      "end_y": 620.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 180.0,
+      "start_y": 260.0,
+      "end_x": 180.0,
+      "end_y": 280.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 480.0,
+      "start_y": 260.0,
+      "end_x": 180.0,
+      "end_y": 260.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 660.0,
+      "start_y": 340.0,
+      "end_x": 660.0,
+      "end_y": 260.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 480.0,
+      "start_y": 340.0,
+      "end_x": 480.0,
+      "end_y": 260.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 860.0,
+      "start_y": 700.0,
+      "end_x": 560.0,
+      "end_y": 700.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 860.0,
+      "start_y": 180.0,
+      "end_x": 860.0,
+      "end_y": 700.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 660.0,
+      "start_y": 180.0,
+      "end_x": 860.0,
+      "end_y": 180.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 480.0,
+      "start_y": 180.0,
+      "end_x": 660.0,
+      "end_y": 180.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 180.0,
+      "start_y": 180.0,
+      "end_x": 480.0,
+      "end_y": 180.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "wire",
+      "start_x": 180.0,
+      "start_y": 460.0,
+      "end_x": 180.0,
+      "end_y": 180.0,
+      "color": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "type": "voltage",
+      "x": 0.0,
+      "y": 40.0,
+      "value": "9,4 V",
+      "component": 1
+    },
+    {
+      "type": "voltage",
+      "x": 0.0,
+      "y": 40.0,
+      "value": "4,7 V",
+      "component": 2
+    }
+  ],
+  "sheet": {
+    "visible": true,
+    "title": "Parallelschaltung zweier Widerstände",
+    "subject": "Grundlagen Elektrotechnik",
+    "name": "",
+    "date": ""
+  }
+}

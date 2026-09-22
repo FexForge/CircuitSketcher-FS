@@ -1,0 +1,5 @@
+# SchaltungsZeichner – Abhaengigkeiten
+# Python 3.8+ empfohlen
+PyQt5>=5.15.0
+PyQt5-Qt5>=5.15.2
+PyQt5-sip>=12.8.0

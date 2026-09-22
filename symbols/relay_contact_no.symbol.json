@@ -1,0 +1,177 @@
+{
+  "version": "1.0",
+  "id": "relay_contact_no",
+  "name": "Relaiskontakt Schliesser",
+  "category": "Funktionsschema",
+  "default_values": {
+    "name": "K1"
+  },
+  "orientations": {
+    "horizontal": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            -8.0,
+            0.0
+          ],
+          "end": [
+            16.0,
+            -12.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            -40.0,
+            0.0
+          ],
+          "end": [
+            -8.0,
+            0.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            20.0,
+            0.0
+          ],
+          "end": [
+            40.0,
+            0.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            18.0,
+            -8.0
+          ],
+          "end": [
+            18.0,
+            8.0
+          ]
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "name",
+          "position": [
+            -4.0,
+            -40.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          -40.0,
+          0.0
+        ],
+        [
+          40.0,
+          0.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -40.0,
+          -40.0
+        ],
+        "max": [
+          40.0,
+          14.0
+        ]
+      },
+      "origin": [
+        -40.0,
+        0.0
+      ]
+    },
+    "vertical": {
+      "items": [
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            -40.0
+          ],
+          "end": [
+            0.0,
+            -12.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            10.0
+          ],
+          "end": [
+            0.0,
+            40.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            0.0,
+            10.0
+          ],
+          "end": [
+            14.0,
+            -12.0
+          ]
+        },
+        {
+          "type": "line",
+          "start": [
+            -8.0,
+            -12.0
+          ],
+          "end": [
+            8.0,
+            -12.0
+          ]
+        }
+      ],
+      "placeholders": [
+        {
+          "type": "placeholder",
+          "key": "name",
+          "position": [
+            -34.0,
+            -22.0
+          ],
+          "alignment": "center"
+        }
+      ],
+      "connection_points": [
+        [
+          0.0,
+          40.0
+        ],
+        [
+          0.0,
+          -40.0
+        ]
+      ],
+      "bounds": {
+        "min": [
+          -34.0,
+          -40.0
+        ],
+        "max": [
+          14.0,
+          40.0
+        ]
+      },
+      "origin": [
+        0.0,
+        -40.0
+      ]
+    }
+  }
+}
