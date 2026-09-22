@@ -67,7 +67,7 @@ tests/                   25 Tests (Simulation, Serialisierung, Bedienung)
 
 ### Lizenz
 
-Copyright (c) 2026 FexForge (<https://github.com/fentrax>)
+Copyright (c) 2026 fentrax (<https://github.com/fentrax>)
 
 Dieses Programm ist freie Software: Sie können es unter den Bedingungen der
 **GNU General Public License Version 3** (wie von der Free Software Foundation
@@ -148,7 +148,7 @@ tests/                   25 tests (simulation, serialization, interaction)
 
 ### License
 
-Copyright (c) 2026 FexForge (<https://github.com/fentrax>)
+Copyright (c) 2026 fentrax (<https://github.com/fentrax>)
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the **GNU General Public License Version 3** as published by the

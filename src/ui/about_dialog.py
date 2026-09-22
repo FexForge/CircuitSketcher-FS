@@ -26,13 +26,13 @@ from PyQt5.QtWidgets import (
 # ----------------------------------------------------------------------
 # Konfiguration
 # ----------------------------------------------------------------------
-ORG_NAME = "FexForge"
+ORG_NAME = "fentrax"
 REPO_URL = "https://github.com/fentrax/CircuitSketcher-FS"
 ISSUES_URL = "https://github.com/fentrax/CircuitSketcher-FS/issues"
 LOGO_FILENAME = "logo.png"  # gesucht unter <App-Basis>/assets/logo.png
 LOGO_DISPLAY_WIDTH = 360  # Anzeige-Breite in Pixeln
 
-COPYRIGHT_LINE = "© 2026 FexForge"
+COPYRIGHT_LINE = "© 2026 fentrax"
 APP_VERSION = "Version 1.3-FS"
 APP_DESCRIPTION = (
     "Erstellen Sie einfache Schaltpläne für Prüfungsaufgaben, Tests und\n"
