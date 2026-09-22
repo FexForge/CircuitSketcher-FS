@@ -12,7 +12,7 @@ Funktionsschema-Variante des SchaltungsZeichners: Zeichnen **und**
 interaktiv simulieren. Geschrieben in Python mit PyQt5.
 
 > Das Basis-Zeichenprogramm liegt in
-> [CircuitSketcher](https://github.com/FexForge/CircuitSketcher); dieses Repo
+> [CircuitSketcher](https://github.com/fentrax/CircuitSketcher); dieses Repo
 > ergänzt den Funktionsschema-Simulator.
 
 ### Funktionen
@@ -46,7 +46,7 @@ python main.py [beispiel.sz.json]
 
 Die CI baut bei jedem Release-Tag automatisch **Windows-ZIP** und
 **macOS-DMG** (Apple Silicon): siehe
-[Releases](https://github.com/FexForge/CircuitSketcher-FS/releases).
+[Releases](https://github.com/fentrax/CircuitSketcher-FS/releases).
 Beispiel beim Start mitliefern: `examples/beispiel-funktionsschema-selbsthaltung.sz.json`
 (EIN/AUS-Selbsthaltung mit Kontakt-Spiegel).
 
@@ -67,7 +67,7 @@ tests/                   25 Tests (Simulation, Serialisierung, Bedienung)
 
 ### Lizenz
 
-Copyright (c) 2026 FexForge (<https://github.com/FexForge>)
+Copyright (c) 2026 FexForge (<https://github.com/fentrax>)
 
 Dieses Programm ist freie Software: Sie können es unter den Bedingungen der
 **GNU General Public License Version 3** (wie von der Free Software Foundation
@@ -79,8 +79,8 @@ das unter der GPL v3 bzw. einer kommerziellen Riverbank-Lizenz steht. Die freie
 Weitergabe dieser Anwendung setzt daher die GPL v3 voraus.
 
 **Quellcode (GPL §6):** Der vollständige Quellcode ist öffentlich verfügbar auf
-GitHub: <https://github.com/FexForge/CircuitSketcher-FS>. Probleme und Anfragen bitte als
-[Issue](https://github.com/FexForge/CircuitSketcher-FS/issues) melden. Beim Weiterleiten
+GitHub: <https://github.com/fentrax/CircuitSketcher-FS>. Probleme und Anfragen bitte als
+[Issue](https://github.com/fentrax/CircuitSketcher-FS/issues) melden. Beim Weiterleiten
 bitte die LICENSE-Datei mitbeigeben.
 
 ---
@@ -93,7 +93,7 @@ Function-schema variant of SchaltungsZeichner: draw **and** interactively
 simulate. Written in Python with PyQt5.
 
 > The base drawing program lives in
-> [CircuitSketcher](https://github.com/FexForge/CircuitSketcher); this repo
+> [CircuitSketcher](https://github.com/fentrax/CircuitSketcher); this repo
 > adds the function-schema simulator.
 
 ### Features
@@ -127,7 +127,7 @@ python main.py [example.sz.json]
 
 The CI builds a **Windows ZIP** and a **macOS DMG** (Apple Silicon)
 automatically on every release tag: see
-[Releases](https://github.com/FexForge/CircuitSketcher-FS/releases).
+[Releases](https://github.com/fentrax/CircuitSketcher-FS/releases).
 Example to load at startup: `examples/beispiel-funktionsschema-selbsthaltung.sz.json`
 (ON/OFF latching circuit with contact mirror).
 
@@ -148,7 +148,7 @@ tests/                   25 tests (simulation, serialization, interaction)
 
 ### License
 
-Copyright (c) 2026 FexForge (<https://github.com/FexForge>)
+Copyright (c) 2026 FexForge (<https://github.com/fentrax>)
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the **GNU General Public License Version 3** as published by the
@@ -160,6 +160,6 @@ which is licensed under GPL v3 or a commercial Riverbank license. Free
 redistribution of this application therefore requires GPL v3.
 
 **Source code (GPL §6):** The complete source code is publicly available on
-GitHub: <https://github.com/FexForge/CircuitSketcher-FS>. Please report problems
-and questions as an [issue](https://github.com/FexForge/CircuitSketcher-FS/issues).
+GitHub: <https://github.com/fentrax/CircuitSketcher-FS>. Please report problems
+and questions as an [issue](https://github.com/fentrax/CircuitSketcher-FS/issues).
 When sharing, please include the LICENSE file.

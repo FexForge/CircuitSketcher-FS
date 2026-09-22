@@ -27,8 +27,8 @@ from PyQt5.QtWidgets import (
 # Konfiguration
 # ----------------------------------------------------------------------
 ORG_NAME = "FexForge"
-REPO_URL = "https://github.com/FexForge/CircuitSketcher-FS"
-ISSUES_URL = "https://github.com/FexForge/CircuitSketcher-FS/issues"
+REPO_URL = "https://github.com/fentrax/CircuitSketcher-FS"
+ISSUES_URL = "https://github.com/fentrax/CircuitSketcher-FS/issues"
 LOGO_FILENAME = "logo.png"  # gesucht unter <App-Basis>/assets/logo.png
 LOGO_DISPLAY_WIDTH = 360  # Anzeige-Breite in Pixeln
 
